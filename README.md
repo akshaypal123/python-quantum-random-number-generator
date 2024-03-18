@@ -35,7 +35,7 @@ Before you begin, ensure you have the following prerequisites:
 2. Change into the project directory:
 
    ```bash
-   cd quantum-algorithms-cirq
+   cd quantum-algorithms
    ```
 
 3. Install the required dependencies:
