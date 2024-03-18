@@ -1,7 +1,5 @@
 # Quantum Algorithms with Cirq in Python
 
-![Cirq Logo](https://github.com/quantumlib/Cirq/raw/main/docs/Cirq_logo_color.png)
-
 This repository contains Python implementations of various quantum algorithms using the [Cirq](https://quantumai.google/cirq) library. Explore the fascinating world of quantum computing with hands-on examples, tutorials, and explanations of quantum algorithms.
 
 ## Table of Contents
