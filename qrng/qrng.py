@@ -21,7 +21,7 @@ def quantum_random_number_generator(num_bits):
     bit_list =''.join(str(samples.measurements[f'qubit-{i}'][0]) for i in range(num_bits)).strip('[]').split('][')
     random_number = int(''.join(bit_list), 2)
 
-    return random_number
+    return circuit, random_number
 
 def display_randomness(n):
     # Initialise empty list of length n to store values
@@ -29,8 +29,10 @@ def display_randomness(n):
 
     # Generate n random numbers
     for i in range(n):
-        generated_numbers[i] = quantum_random_number_generator(num_bits)
+        circuit, generated_numbers[i] = quantum_random_number_generator(num_bits)
 
+    print("Quantum Circuit:")
+    print(circuit)
     plt.plot(generated_numbers)
     plt.show()
 
@@ -42,7 +44,9 @@ if __name__ == "__main__":
     print("Press g to generate a random number or r to display randomness")
     x = input()
     if x == "g":
-        generated_number = quantum_random_number_generator(num_bits)
+        circuit, generated_number = quantum_random_number_generator(num_bits)
+        print("Quantum Circuit:")
+        print(circuit)
         print(f"Generated Quantum Random Number (using {num_bits} qubits): {generated_number}")
     elif x == "r":
         print("How many times do you want to run the simulation?")
