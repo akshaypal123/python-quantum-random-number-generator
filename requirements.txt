@@ -79,6 +79,9 @@ pyparsing==3.1.2
 PyQt5==5.15.10
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.13.0
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.2
+PyQt6-sip==13.6.0
 pyquil==3.5.4
 pyrsistent==0.20.0
 python-dateutil==2.9.0.post0
