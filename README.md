@@ -1,19 +1,16 @@
 # Quantum Algorithms with Cirq in Python
 
-This repository contains Python implementations of various quantum algorithms using the [Cirq](https://quantumai.google/cirq) library. Explore the fascinating world of quantum computing with hands-on examples, tutorials, and explanations of quantum algorithms.
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Implemented Algorithms](#implemented-algorithms)
-5. [Contributing](#contributing)
 6. [License](#license)
 
 ## Introduction
 
-Quantum computing is an emerging field that leverages the principles of quantum mechanics to perform computations that classical computers struggle with. This repository aims to provide clear and concise implementations of various quantum algorithms using the Cirq library. Whether you are a beginner or an experienced quantum enthusiast, you'll find examples and explanations to deepen your understanding.
+This repository contains Python implementations of various quantum algorithms using the [Cirq](https://quantumai.google/cirq) library. I have largely followed tutorials and guides published by Google [here](https://quantumai.google/cirq/experiments/textbook_algorithms) which has deepened both my theortical quantum computing knowledge and my pratical ability to develop in Python.
 
 ## Prerequisites
 
@@ -47,20 +44,6 @@ Before you begin, ensure you have the following prerequisites:
 The following quantum algorithms are currently implemented:
 
 - Quantum Random Number Generator
-
-Feel free to contribute by adding new algorithms or improving existing ones!
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
-For major changes, please open an issue first to discuss the proposed changes.
 
 ## License
 
