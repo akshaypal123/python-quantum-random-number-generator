@@ -1,23 +1,20 @@
 # Quantum Algorithms with Cirq in Python
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Implemented Algorithms](#implemented-algorithms)
-6. [License](#license)
-
 ## Introduction
 
-This repository contains Python implementations of various quantum algorithms using the [Cirq](https://quantumai.google/cirq) library. I have largely followed tutorials and guides published by Google [here](https://quantumai.google/cirq/experiments/textbook_algorithms) which has deepened both my theortical quantum computing knowledge and my pratical ability to develop in Python.
+This project is a small foray into the world of quantum computing in Python using the using the [Cirq](https://quantumai.google/cirq) library. I have built a quantum random number generator largely following tutorials and documentation written by the Cirq team at Google, published [here](https://quantumai.google/cirq/experiments/textbook_algorithms) deepening both my theoretical quantum computng knowledge and my Python coding ability!
+
+## Tech Stack 🛠️
+
+- **Python**
+- [**Cirq**](https://quantumai.google/cirq)
+- **Matplotlib**
 
 ## Prerequisites
 
-Before you begin, ensure you have the following prerequisites:
+Before you begin, ensure you have the following prerequisites installed:
 
 - Python 3.x
-- [Cirq](https://quantumai.google/cirq) library (install via `pip install cirq`)
+- Pip
 
 ## Installation
 
@@ -38,13 +35,7 @@ Before you begin, ensure you have the following prerequisites:
    ```bash
    pip install -r requirements.txt
    ```
+   
+## Contact 📧
 
-## Implemented Algorithms
-
-The following quantum algorithms are currently implemented:
-
-- Quantum Random Number Generator
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Email**: akshay.anu@gmail.com
