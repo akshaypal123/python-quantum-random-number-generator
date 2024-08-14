@@ -1,4 +1,4 @@
-# Quantum Algorithms with Cirq in Python
+# Quantum Random Number Generator
 ## Introduction
 
 This project is a small foray into the world of quantum computing in Python using the using the [Cirq](https://quantumai.google/cirq) library. I have built a quantum random number generator largely following tutorials and documentation written by the Cirq team at Google, published [here](https://quantumai.google/cirq/experiments/textbook_algorithms) deepening both my theoretical quantum computng knowledge and my Python coding ability!
