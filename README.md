@@ -35,6 +35,12 @@ Before you begin, ensure you have the following prerequisites installed:
    ```bash
    pip install -r requirements.txt
    ```
+
+4. Run the script:
+
+   ```bash
+   python qrng/qrng.py
+   ```
    
 ## Contact 📧
 
